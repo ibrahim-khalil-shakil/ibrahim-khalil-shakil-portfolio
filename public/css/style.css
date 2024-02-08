@@ -8973,7 +8973,6 @@ textarea.form-control {
     width: 50px;
     display: block;
     float: left;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     position: relative; }
     .ftco-footer-social li a span {
@@ -8985,7 +8984,9 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color: #fff; 
+      transform: scale(1.5);
+    }
 
 .footer-small-nav > li {
   display: inline-block; }
